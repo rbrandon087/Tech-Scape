@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+/*image and content display css style*/
+.main-content {
+    display: flex;
+    margin-top: 75px;
+}
+
+.shapes-image {
+    width: 32%;
+    height: 10%;
+    margin-left: 24%;
+}
+
+.alert {
+    width: 22%;
+    margin-left: 35px;
+    height: 450px;
+    background-color: hsl(240, 100%, 5%) !important;
+}
+
+.news-topic {
+    color: white;
+    
+    margin-top: 25px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.423);
+    width: 80%;
+}
+
+h4 {
+    color: hsl(35, 77%, 62%) !important;
+}
+
+.p-with-line {
+    border-bottom: 1px solid #ffffff8e;
+}
+/*h1 and p tag and also button css style here*/
+
+/*.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  margin-bottom: 200px;
+}
+*/
+h1 {
+    position: absolute;
+    margin-left: 24%;
+    top: 55%;
+    width: 15%;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.text {
+    position: absolute;
+    top: 55%;
+    margin-left: 41%;
+    width: 15%;
+    color: black;
+}
+
+
+.btn {
+    position: absolute;
+    background-color: hsl(5, 85%, 63%)!important;
+    color: rgb(255, 255, 255)!important;
+    top: calc(68% + 1em);
+    left: 41%;
+}
+
+.btn:hover {
+    background-color: hsl(5, 85%, 70%) !important;
+}
+/*bottom images here style*/
+.container-row {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    margin-left: 22%;
+    margin-top: 5%;
+    width: 60%;
+  }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center; 
+}
+
+.retro-pic {
+    position: absolute;
+    width: 5%;
+    
+}
+
+.number {
+    position: absolute;
+    color: black;
+    margin-left: 6%;
+    margin-bottom: 5%;
+}
+
+.retro-title {
+    position: absolute;
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2vh;
+    margin-left: 6%;
+}
+
+.retro-info {
+    position: absolute;
+    color: black;
+    font-size: small;
+    margin-top:4%;
+    margin-left: 6%;
+    width: 9%;
+}
