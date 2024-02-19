@@ -10,7 +10,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import "./styles/Home.css";
 import "./styles/Navbar.css";
-import shapes from "./images/shapes.jpg";
 
 export interface IAppProps {}
 
