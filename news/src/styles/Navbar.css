@@ -6,13 +6,12 @@
 
 .navbar-brand {
   font-size: 5vh !important;
-  margin-left: 70%;
+  margin-left: 22% !important;
   font-family: 'DM Serif Display', serif;
 }
 
 .navbar-nav {
     margin-left: 57%;
-    color: black;
 }
 
 
@@ -20,6 +19,8 @@
   .nav-link {
     margin-right: 15px;
     padding: 10px;
+    text-decoration: none !important;
+    color: black;
   }
  
   
